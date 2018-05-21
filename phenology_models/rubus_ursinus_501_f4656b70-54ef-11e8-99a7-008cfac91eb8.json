@@ -1,0 +1,45 @@
+{
+    "model_name": "WeightedEnsemble",
+    "core_models": [
+        {
+            "weight": 0.1348814654819956,
+            "model_name": "Alternating",
+            "parameters": {
+                "a": 421.9532277733038,
+                "c": -2.451432834144067,
+                "b": 747.8885661739293,
+                "threshold": 5,
+                "t1": 1
+            }
+        },
+        {
+            "weight": 0.324996620004108,
+            "model_name": "ThermalTime",
+            "parameters": {
+                "T": 14.97870725888511,
+                "F": 5.7821214151297795,
+                "t1": 67.38885708001291
+            }
+        },
+        {
+            "weight": 0.25768209043891754,
+            "model_name": "Uniforc",
+            "parameters": {
+                "c": -35.290352683671856,
+                "b": -9.15041916603311,
+                "F": 145.1513847063559,
+                "t1": -56.78600339773698
+            }
+        },
+        {
+            "weight": 0.28243982407497875,
+            "model_name": "Linear",
+            "parameters": {
+                "intercept": 298.0,
+                "slope": -16.2511547065762,
+                "spring_length": 39.86778400335202,
+                "spring_start": 57.671788961769444
+            }
+        }
+    ]
+}
