@@ -1,0 +1,24 @@
+{
+    "model_name": "WeightedEnsemble",
+    "core_models": [
+        {
+            "parameters": {
+                "time_length": 28.210735142879848,
+                "slope": 5.584557259090294,
+                "intercept": 157.81941604865125,
+                "time_start": 210.30837674514433
+            },
+            "model_name": "Linear",
+            "weight": 0.6659418078535388
+        },
+        {
+            "parameters": {
+                "t1": 212.82279898515935,
+                "T": 18.161467506835983,
+                "F": 367.53736705530866
+            },
+            "model_name": "FallCooling",
+            "weight": 0.3340581921464606
+        }
+    ]
+}
