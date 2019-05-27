@@ -1,0 +1,965 @@
+{
+    "model_name": "Ensemble",
+    "core_models": [
+        {
+            "model_name": "BootstrapModel",
+            "parameters": [
+                {
+                    "model_name": "Linear",
+                    "parameters": {
+                        "intercept": 261.9209755294492,
+                        "slope": -4.255480277804285,
+                        "time_start": 202.15498515888223,
+                        "time_length": 10.124566255788721
+                    },
+                    "bootstrap_num": 0
+                },
+                {
+                    "model_name": "Linear",
+                    "parameters": {
+                        "intercept": 35.78006956170803,
+                        "slope": 10.714568329650408,
+                        "time_start": 222.46847155015453,
+                        "time_length": 10.103393179424927
+                    },
+                    "bootstrap_num": 1
+                },
+                {
+                    "model_name": "Linear",
+                    "parameters": {
+                        "intercept": 277.94837042706394,
+                        "slope": -8.434808513455414,
+                        "time_start": 299.0755379884633,
+                        "time_length": 87.15638485077491
+                    },
+                    "bootstrap_num": 2
+                },
+                {
+                    "model_name": "Linear",
+                    "parameters": {
+                        "intercept": 248.0116682606406,
+                        "slope": -4.046606541295568,
+                        "time_start": 251.35449857793205,
+                        "time_length": 87.05061916058678
+                    },
+                    "bootstrap_num": 3
+                },
+                {
+                    "model_name": "Linear",
+                    "parameters": {
+                        "intercept": 242.9619960926861,
+                        "slope": -5.6840737614321615,
+                        "time_start": 299.49054090288456,
+                        "time_length": 78.88470088333197
+                    },
+                    "bootstrap_num": 4
+                },
+                {
+                    "model_name": "Linear",
+                    "parameters": {
+                        "intercept": -9.259642830357604,
+                        "slope": 11.866889142213704,
+                        "time_start": 215.35472481761317,
+                        "time_length": 10.35524848345581
+                    },
+                    "bootstrap_num": 5
+                },
+                {
+                    "model_name": "Linear",
+                    "parameters": {
+                        "intercept": 230.91566961310602,
+                        "slope": -2.205672211266354,
+                        "time_start": 289.7530285601076,
+                        "time_length": 76.49878597687288
+                    },
+                    "bootstrap_num": 6
+                },
+                {
+                    "model_name": "Linear",
+                    "parameters": {
+                        "intercept": -11.883778487706223,
+                        "slope": 12.870003405149388,
+                        "time_start": 215.49961503837713,
+                        "time_length": 10.202516798172532
+                    },
+                    "bootstrap_num": 7
+                },
+                {
+                    "model_name": "Linear",
+                    "parameters": {
+                        "intercept": 298.0,
+                        "slope": -5.693306443550676,
+                        "time_start": 284.39881850870313,
+                        "time_length": 10.017124277067339
+                    },
+                    "bootstrap_num": 8
+                },
+                {
+                    "model_name": "Linear",
+                    "parameters": {
+                        "intercept": 298.0,
+                        "slope": -6.013250291728676,
+                        "time_start": 201.20217687246137,
+                        "time_length": 10.01006332328626
+                    },
+                    "bootstrap_num": 9
+                },
+                {
+                    "model_name": "Linear",
+                    "parameters": {
+                        "intercept": 280.646821234044,
+                        "slope": -7.442628795031203,
+                        "time_start": 299.83492455545627,
+                        "time_length": 84.13112643325667
+                    },
+                    "bootstrap_num": 10
+                },
+                {
+                    "model_name": "Linear",
+                    "parameters": {
+                        "intercept": 245.84771385601766,
+                        "slope": -4.415747524145883,
+                        "time_start": 299.8909210057619,
+                        "time_length": 69.14798293420901
+                    },
+                    "bootstrap_num": 11
+                },
+                {
+                    "model_name": "Linear",
+                    "parameters": {
+                        "intercept": 90.80044428562368,
+                        "slope": 7.487275777400238,
+                        "time_start": 215.09887969709254,
+                        "time_length": 10.357846489687084
+                    },
+                    "bootstrap_num": 12
+                },
+                {
+                    "model_name": "Linear",
+                    "parameters": {
+                        "intercept": 298.0,
+                        "slope": -5.5026266994962505,
+                        "time_start": 202.01637847659848,
+                        "time_length": 10.402901387592578
+                    },
+                    "bootstrap_num": 13
+                },
+                {
+                    "model_name": "Linear",
+                    "parameters": {
+                        "intercept": 297.9999999604827,
+                        "slope": -6.173119078023935,
+                        "time_start": 198.01668284351518,
+                        "time_length": 10.30043146730415
+                    },
+                    "bootstrap_num": 14
+                },
+                {
+                    "model_name": "Linear",
+                    "parameters": {
+                        "intercept": 262.27919521050455,
+                        "slope": -6.8550278635038095,
+                        "time_start": 299.23112619527353,
+                        "time_length": 76.21687667860085
+                    },
+                    "bootstrap_num": 15
+                },
+                {
+                    "model_name": "Linear",
+                    "parameters": {
+                        "intercept": -15.634240415804415,
+                        "slope": 12.047323677987125,
+                        "time_start": 215.5948330055179,
+                        "time_length": 10.148547260189133
+                    },
+                    "bootstrap_num": 16
+                },
+                {
+                    "model_name": "Linear",
+                    "parameters": {
+                        "intercept": 60.17671435919395,
+                        "slope": 8.603203883367266,
+                        "time_start": 215.22699229775355,
+                        "time_length": 10.121625118536627
+                    },
+                    "bootstrap_num": 17
+                },
+                {
+                    "model_name": "Linear",
+                    "parameters": {
+                        "intercept": 139.81869032152736,
+                        "slope": 3.888745707807996,
+                        "time_start": 297.1343460046183,
+                        "time_length": 11.426163241574315
+                    },
+                    "bootstrap_num": 18
+                },
+                {
+                    "model_name": "Linear",
+                    "parameters": {
+                        "intercept": 298.0,
+                        "slope": -6.12694886260377,
+                        "time_start": 201.08694309432855,
+                        "time_length": 10.402275271270497
+                    },
+                    "bootstrap_num": 19
+                },
+                {
+                    "model_name": "Linear",
+                    "parameters": {
+                        "intercept": 298.0,
+                        "slope": -6.496489497029033,
+                        "time_start": 288.68941206837724,
+                        "time_length": 10.154066868860248
+                    },
+                    "bootstrap_num": 20
+                },
+                {
+                    "model_name": "Linear",
+                    "parameters": {
+                        "intercept": 222.5915169087682,
+                        "slope": -2.4180939779343533,
+                        "time_start": 299.2263695333837,
+                        "time_length": 57.4011608588636
+                    },
+                    "bootstrap_num": 21
+                },
+                {
+                    "model_name": "Linear",
+                    "parameters": {
+                        "intercept": 155.5166264588185,
+                        "slope": 2.7832711461211916,
+                        "time_start": 299.631677709678,
+                        "time_length": 72.17545727824825
+                    },
+                    "bootstrap_num": 22
+                },
+                {
+                    "model_name": "Linear",
+                    "parameters": {
+                        "intercept": 131.7052959479863,
+                        "slope": 6.773392201122075,
+                        "time_start": 297.7479342884047,
+                        "time_length": 13.834138324574809
+                    },
+                    "bootstrap_num": 23
+                },
+                {
+                    "model_name": "Linear",
+                    "parameters": {
+                        "intercept": 256.4964628068288,
+                        "slope": -5.538330951409851,
+                        "time_start": 299.7258699170359,
+                        "time_length": 72.3325101406771
+                    },
+                    "bootstrap_num": 24
+                },
+                {
+                    "model_name": "Linear",
+                    "parameters": {
+                        "intercept": 281.0514340783623,
+                        "slope": -6.8949097799062855,
+                        "time_start": 299.7875039925722,
+                        "time_length": 38.4293144092172
+                    },
+                    "bootstrap_num": 25
+                },
+                {
+                    "model_name": "Linear",
+                    "parameters": {
+                        "intercept": 142.67500005664706,
+                        "slope": 4.859691619259986,
+                        "time_start": 295.1583959909783,
+                        "time_length": 16.609355712273228
+                    },
+                    "bootstrap_num": 26
+                },
+                {
+                    "model_name": "Linear",
+                    "parameters": {
+                        "intercept": 298.0,
+                        "slope": -6.21443404964153,
+                        "time_start": 202.14506704481232,
+                        "time_length": 10.091718930830204
+                    },
+                    "bootstrap_num": 27
+                },
+                {
+                    "model_name": "Linear",
+                    "parameters": {
+                        "intercept": 247.49414385677906,
+                        "slope": -5.676424498069416,
+                        "time_start": 299.4307746405805,
+                        "time_length": 67.89799487263664
+                    },
+                    "bootstrap_num": 28
+                },
+                {
+                    "model_name": "Linear",
+                    "parameters": {
+                        "intercept": 297.9999999999927,
+                        "slope": -5.6652334537811075,
+                        "time_start": 236.17105944911268,
+                        "time_length": 10.900156413599788
+                    },
+                    "bootstrap_num": 29
+                },
+                {
+                    "model_name": "Linear",
+                    "parameters": {
+                        "intercept": 226.46016267894493,
+                        "slope": -3.417100169112699,
+                        "time_start": 299.2119881807776,
+                        "time_length": 58.06102673546823
+                    },
+                    "bootstrap_num": 30
+                },
+                {
+                    "model_name": "Linear",
+                    "parameters": {
+                        "intercept": 294.61220305299895,
+                        "slope": -6.413658316159762,
+                        "time_start": 265.2592495025967,
+                        "time_length": 10.781810430579732
+                    },
+                    "bootstrap_num": 31
+                },
+                {
+                    "model_name": "Linear",
+                    "parameters": {
+                        "intercept": 255.70664861166375,
+                        "slope": -4.568879358911798,
+                        "time_start": 284.8309518942454,
+                        "time_length": 10.907441364098688
+                    },
+                    "bootstrap_num": 32
+                },
+                {
+                    "model_name": "Linear",
+                    "parameters": {
+                        "intercept": 285.34221381514004,
+                        "slope": -5.5570752554188285,
+                        "time_start": 265.49796367951006,
+                        "time_length": 11.25274163476621
+                    },
+                    "bootstrap_num": 33
+                },
+                {
+                    "model_name": "Linear",
+                    "parameters": {
+                        "intercept": 51.62190423827142,
+                        "slope": 10.421228448205111,
+                        "time_start": 222.8995786199721,
+                        "time_length": 11.974616253163106
+                    },
+                    "bootstrap_num": 34
+                },
+                {
+                    "model_name": "Linear",
+                    "parameters": {
+                        "intercept": 297.99999999903883,
+                        "slope": -5.517356820253139,
+                        "time_start": 236.99493862873857,
+                        "time_length": 10.369388329025249
+                    },
+                    "bootstrap_num": 35
+                },
+                {
+                    "model_name": "Linear",
+                    "parameters": {
+                        "intercept": 102.28067433665223,
+                        "slope": 8.587982875124723,
+                        "time_start": 296.54830225967936,
+                        "time_length": 11.901467675490444
+                    },
+                    "bootstrap_num": 36
+                },
+                {
+                    "model_name": "Linear",
+                    "parameters": {
+                        "intercept": -66.99999999999886,
+                        "slope": 14.808135563159237,
+                        "time_start": 215.5516184767478,
+                        "time_length": 10.28058562768475
+                    },
+                    "bootstrap_num": 37
+                },
+                {
+                    "model_name": "Linear",
+                    "parameters": {
+                        "intercept": 255.4254906278182,
+                        "slope": -4.357338871980176,
+                        "time_start": 299.0885561145419,
+                        "time_length": 39.412878988068044
+                    },
+                    "bootstrap_num": 38
+                },
+                {
+                    "model_name": "Linear",
+                    "parameters": {
+                        "intercept": 265.11240296387416,
+                        "slope": -4.584066355304614,
+                        "time_start": 202.65910926265977,
+                        "time_length": 10.199523424136437
+                    },
+                    "bootstrap_num": 39
+                },
+                {
+                    "model_name": "Linear",
+                    "parameters": {
+                        "intercept": 298.0,
+                        "slope": -7.046164516894377,
+                        "time_start": 271.5993075589087,
+                        "time_length": 10.318941967644676
+                    },
+                    "bootstrap_num": 40
+                },
+                {
+                    "model_name": "Linear",
+                    "parameters": {
+                        "intercept": 298.0,
+                        "slope": -6.186393010857652,
+                        "time_start": 250.63348649214552,
+                        "time_length": 10.088810789876575
+                    },
+                    "bootstrap_num": 41
+                },
+                {
+                    "model_name": "Linear",
+                    "parameters": {
+                        "intercept": 290.37824298884027,
+                        "slope": -8.677050702892483,
+                        "time_start": 299.44571881378374,
+                        "time_length": 72.61054744010798
+                    },
+                    "bootstrap_num": 42
+                },
+                {
+                    "model_name": "Linear",
+                    "parameters": {
+                        "intercept": 153.3417268090045,
+                        "slope": 4.451939253149516,
+                        "time_start": 299.6781612089841,
+                        "time_length": 75.97761460905119
+                    },
+                    "bootstrap_num": 43
+                },
+                {
+                    "model_name": "Linear",
+                    "parameters": {
+                        "intercept": 136.02999854743,
+                        "slope": 5.312985780810469,
+                        "time_start": 295.3467713555522,
+                        "time_length": 10.385382816376513
+                    },
+                    "bootstrap_num": 44
+                },
+                {
+                    "model_name": "Linear",
+                    "parameters": {
+                        "intercept": 139.2091741171981,
+                        "slope": 4.817753343305426,
+                        "time_start": 297.1384272978603,
+                        "time_length": 14.553549879578782
+                    },
+                    "bootstrap_num": 45
+                },
+                {
+                    "model_name": "Linear",
+                    "parameters": {
+                        "intercept": 297.9999999999999,
+                        "slope": -5.682402169321546,
+                        "time_start": 235.288295543873,
+                        "time_length": 12.315809807593048
+                    },
+                    "bootstrap_num": 46
+                },
+                {
+                    "model_name": "Linear",
+                    "parameters": {
+                        "intercept": 297.99999999999955,
+                        "slope": -6.283448838680031,
+                        "time_start": 265.65160032761145,
+                        "time_length": 11.307859487725246
+                    },
+                    "bootstrap_num": 47
+                },
+                {
+                    "model_name": "Linear",
+                    "parameters": {
+                        "intercept": 222.13143146675128,
+                        "slope": -2.7410449957338665,
+                        "time_start": 299.55560072942575,
+                        "time_length": 39.22539724942631
+                    },
+                    "bootstrap_num": 48
+                },
+                {
+                    "model_name": "Linear",
+                    "parameters": {
+                        "intercept": 3.2337833040700183,
+                        "slope": 12.464319834175493,
+                        "time_start": 215.2285658966464,
+                        "time_length": 10.2081784228984
+                    },
+                    "bootstrap_num": 49
+                }
+            ]
+        },
+        {
+            "model_name": "BootstrapModel",
+            "parameters": [
+                {
+                    "model_name": "FallCooling",
+                    "parameters": {
+                        "t1": 182.18157284444106,
+                        "T": 18.820223973117056,
+                        "F": 267.2594432827655
+                    },
+                    "bootstrap_num": 0
+                },
+                {
+                    "model_name": "FallCooling",
+                    "parameters": {
+                        "t1": 182.8095976567731,
+                        "T": 19.18288893525968,
+                        "F": 176.04760991229176
+                    },
+                    "bootstrap_num": 1
+                },
+                {
+                    "model_name": "FallCooling",
+                    "parameters": {
+                        "t1": 186.98549379804587,
+                        "T": 18.763167012453735,
+                        "F": 194.41304361003233
+                    },
+                    "bootstrap_num": 2
+                },
+                {
+                    "model_name": "FallCooling",
+                    "parameters": {
+                        "t1": 182.0746358580271,
+                        "T": 18.769953633938602,
+                        "F": 157.97088203397192
+                    },
+                    "bootstrap_num": 3
+                },
+                {
+                    "model_name": "FallCooling",
+                    "parameters": {
+                        "t1": 186.16137610771915,
+                        "T": 18.761619360015334,
+                        "F": 138.64622331822318
+                    },
+                    "bootstrap_num": 4
+                },
+                {
+                    "model_name": "FallCooling",
+                    "parameters": {
+                        "t1": 182.9584296299278,
+                        "T": 19.358044820657526,
+                        "F": 278.4956110771715
+                    },
+                    "bootstrap_num": 5
+                },
+                {
+                    "model_name": "FallCooling",
+                    "parameters": {
+                        "t1": 209.1525368201061,
+                        "T": 21.22825478447169,
+                        "F": 32.67550641565674
+                    },
+                    "bootstrap_num": 6
+                },
+                {
+                    "model_name": "FallCooling",
+                    "parameters": {
+                        "t1": 212.01406521619987,
+                        "T": 17.859481599368728,
+                        "F": 16.985506668120024
+                    },
+                    "bootstrap_num": 7
+                },
+                {
+                    "model_name": "FallCooling",
+                    "parameters": {
+                        "t1": 183.20417252395578,
+                        "T": 20.15165752219832,
+                        "F": 246.8129444443673
+                    },
+                    "bootstrap_num": 8
+                },
+                {
+                    "model_name": "FallCooling",
+                    "parameters": {
+                        "t1": 182.41887049722448,
+                        "T": 24.656131781556994,
+                        "F": 212.99170556698118
+                    },
+                    "bootstrap_num": 9
+                },
+                {
+                    "model_name": "FallCooling",
+                    "parameters": {
+                        "t1": 183.93859873651422,
+                        "T": 21.5595238302625,
+                        "F": 383.2067327638896
+                    },
+                    "bootstrap_num": 10
+                },
+                {
+                    "model_name": "FallCooling",
+                    "parameters": {
+                        "t1": 182.96552420192648,
+                        "T": 21.24714317147289,
+                        "F": 133.37125790252975
+                    },
+                    "bootstrap_num": 11
+                },
+                {
+                    "model_name": "FallCooling",
+                    "parameters": {
+                        "t1": 182.58979631287053,
+                        "T": 18.791009427383703,
+                        "F": 263.1384259465634
+                    },
+                    "bootstrap_num": 12
+                },
+                {
+                    "model_name": "FallCooling",
+                    "parameters": {
+                        "t1": 182.71056128898454,
+                        "T": 18.821272367856256,
+                        "F": 245.2127076781403
+                    },
+                    "bootstrap_num": 13
+                },
+                {
+                    "model_name": "FallCooling",
+                    "parameters": {
+                        "t1": 182.86897792611327,
+                        "T": 21.941451212101313,
+                        "F": 17.429090590072576
+                    },
+                    "bootstrap_num": 14
+                },
+                {
+                    "model_name": "FallCooling",
+                    "parameters": {
+                        "t1": 187.00243675348247,
+                        "T": 18.8235652345224,
+                        "F": 276.4158165158235
+                    },
+                    "bootstrap_num": 15
+                },
+                {
+                    "model_name": "FallCooling",
+                    "parameters": {
+                        "t1": 182.57426149737285,
+                        "T": 21.316952487763174,
+                        "F": 132.0153812706709
+                    },
+                    "bootstrap_num": 16
+                },
+                {
+                    "model_name": "FallCooling",
+                    "parameters": {
+                        "t1": 182.47550457260402,
+                        "T": 24.862719762991954,
+                        "F": 252.06794333290804
+                    },
+                    "bootstrap_num": 17
+                },
+                {
+                    "model_name": "FallCooling",
+                    "parameters": {
+                        "t1": 182.02555776595574,
+                        "T": 17.093523260686737,
+                        "F": 224.06938402137632
+                    },
+                    "bootstrap_num": 18
+                },
+                {
+                    "model_name": "FallCooling",
+                    "parameters": {
+                        "t1": 182.24186893010176,
+                        "T": 19.44868510066436,
+                        "F": 301.4009216890699
+                    },
+                    "bootstrap_num": 19
+                },
+                {
+                    "model_name": "FallCooling",
+                    "parameters": {
+                        "t1": 208.90594948562324,
+                        "T": 22.123227456846696,
+                        "F": 75.86874135510715
+                    },
+                    "bootstrap_num": 20
+                },
+                {
+                    "model_name": "FallCooling",
+                    "parameters": {
+                        "t1": 182.2447749072735,
+                        "T": 19.137576143385544,
+                        "F": 177.0486239012189
+                    },
+                    "bootstrap_num": 21
+                },
+                {
+                    "model_name": "FallCooling",
+                    "parameters": {
+                        "t1": 182.54630427840542,
+                        "T": 21.32300639543422,
+                        "F": 462.0987075344515
+                    },
+                    "bootstrap_num": 22
+                },
+                {
+                    "model_name": "FallCooling",
+                    "parameters": {
+                        "t1": 182.97281482492832,
+                        "T": 20.167559771515105,
+                        "F": 295.31292046893543
+                    },
+                    "bootstrap_num": 23
+                },
+                {
+                    "model_name": "FallCooling",
+                    "parameters": {
+                        "t1": 182.17066877411185,
+                        "T": 19.343012941914907,
+                        "F": 365.5999610143904
+                    },
+                    "bootstrap_num": 24
+                },
+                {
+                    "model_name": "FallCooling",
+                    "parameters": {
+                        "t1": 182.0925241306776,
+                        "T": 19.451365526928306,
+                        "F": 300.6607043166653
+                    },
+                    "bootstrap_num": 25
+                },
+                {
+                    "model_name": "FallCooling",
+                    "parameters": {
+                        "t1": 182.47867130664713,
+                        "T": 19.45528650169787,
+                        "F": 300.62235311179137
+                    },
+                    "bootstrap_num": 26
+                },
+                {
+                    "model_name": "FallCooling",
+                    "parameters": {
+                        "t1": 189.37368118650159,
+                        "T": 24.02180829266965,
+                        "F": 89.34841218217258
+                    },
+                    "bootstrap_num": 27
+                },
+                {
+                    "model_name": "FallCooling",
+                    "parameters": {
+                        "t1": 182.3428234465331,
+                        "T": 19.44826364841687,
+                        "F": 250.48182218375965
+                    },
+                    "bootstrap_num": 28
+                },
+                {
+                    "model_name": "FallCooling",
+                    "parameters": {
+                        "t1": 182.4670402470893,
+                        "T": 20.1563708657453,
+                        "F": 294.121952411072
+                    },
+                    "bootstrap_num": 29
+                },
+                {
+                    "model_name": "FallCooling",
+                    "parameters": {
+                        "t1": 202.01279166095782,
+                        "T": 19.665404224577244,
+                        "F": 143.15913830829828
+                    },
+                    "bootstrap_num": 30
+                },
+                {
+                    "model_name": "FallCooling",
+                    "parameters": {
+                        "t1": 189.30748321577664,
+                        "T": 18.803581293687525,
+                        "F": 35.35754710397276
+                    },
+                    "bootstrap_num": 31
+                },
+                {
+                    "model_name": "FallCooling",
+                    "parameters": {
+                        "t1": 199.77392789271647,
+                        "T": 22.19410407202755,
+                        "F": 15.702460197929895
+                    },
+                    "bootstrap_num": 32
+                },
+                {
+                    "model_name": "FallCooling",
+                    "parameters": {
+                        "t1": 182.4779236898724,
+                        "T": 18.81561682990859,
+                        "F": 467.7027952937169
+                    },
+                    "bootstrap_num": 33
+                },
+                {
+                    "model_name": "FallCooling",
+                    "parameters": {
+                        "t1": 186.18834585603094,
+                        "T": 19.460325367294445,
+                        "F": 225.12228011357905
+                    },
+                    "bootstrap_num": 34
+                },
+                {
+                    "model_name": "FallCooling",
+                    "parameters": {
+                        "t1": 182.57707704556367,
+                        "T": 18.818230891520404,
+                        "F": 265.23525970145965
+                    },
+                    "bootstrap_num": 35
+                },
+                {
+                    "model_name": "FallCooling",
+                    "parameters": {
+                        "t1": 182.94729853086682,
+                        "T": 19.457804007359268,
+                        "F": 294.03326175903584
+                    },
+                    "bootstrap_num": 36
+                },
+                {
+                    "model_name": "FallCooling",
+                    "parameters": {
+                        "t1": 211.73113132998154,
+                        "T": 18.08341169961829,
+                        "F": 17.590466719954975
+                    },
+                    "bootstrap_num": 37
+                },
+                {
+                    "model_name": "FallCooling",
+                    "parameters": {
+                        "t1": 186.00289913716136,
+                        "T": 18.769552199990443,
+                        "F": 139.95887514438135
+                    },
+                    "bootstrap_num": 38
+                },
+                {
+                    "model_name": "FallCooling",
+                    "parameters": {
+                        "t1": 186.24500564906378,
+                        "T": 19.339700192737414,
+                        "F": 258.1773370394536
+                    },
+                    "bootstrap_num": 39
+                },
+                {
+                    "model_name": "FallCooling",
+                    "parameters": {
+                        "t1": 189.0597869132756,
+                        "T": 21.67153408625361,
+                        "F": 20.055809192428285
+                    },
+                    "bootstrap_num": 40
+                },
+                {
+                    "model_name": "FallCooling",
+                    "parameters": {
+                        "t1": 182.6362256049647,
+                        "T": 19.302915527450093,
+                        "F": 211.98651693060737
+                    },
+                    "bootstrap_num": 41
+                },
+                {
+                    "model_name": "FallCooling",
+                    "parameters": {
+                        "t1": 182.69987641015126,
+                        "T": 18.07449837461283,
+                        "F": 117.36317804667641
+                    },
+                    "bootstrap_num": 42
+                },
+                {
+                    "model_name": "FallCooling",
+                    "parameters": {
+                        "t1": 182.6537942368734,
+                        "T": 19.64159476323489,
+                        "F": 197.43971102087812
+                    },
+                    "bootstrap_num": 43
+                },
+                {
+                    "model_name": "FallCooling",
+                    "parameters": {
+                        "t1": 182.82082964002444,
+                        "T": 19.27723583547751,
+                        "F": 195.24980969379766
+                    },
+                    "bootstrap_num": 44
+                },
+                {
+                    "model_name": "FallCooling",
+                    "parameters": {
+                        "t1": 182.6074389196193,
+                        "T": 18.81322198059473,
+                        "F": 175.61787843618936
+                    },
+                    "bootstrap_num": 45
+                },
+                {
+                    "model_name": "FallCooling",
+                    "parameters": {
+                        "t1": 199.12070811029207,
+                        "T": 22.180026410373216,
+                        "F": 20.00655251528468
+                    },
+                    "bootstrap_num": 46
+                },
+                {
+                    "model_name": "FallCooling",
+                    "parameters": {
+                        "t1": 182.06929143143248,
+                        "T": 19.513681509907556,
+                        "F": 293.9041681904471
+                    },
+                    "bootstrap_num": 47
+                },
+                {
+                    "model_name": "FallCooling",
+                    "parameters": {
+                        "t1": 187.3699201500461,
+                        "T": 20.870165001971436,
+                        "F": 29.613853276492193
+                    },
+                    "bootstrap_num": 48
+                },
+                {
+                    "model_name": "FallCooling",
+                    "parameters": {
+                        "t1": 182.78378846968872,
+                        "T": 24.67557791985119,
+                        "F": 82.78885124741129
+                    },
+                    "bootstrap_num": 49
+                }
+            ]
+        }
+    ]
+}

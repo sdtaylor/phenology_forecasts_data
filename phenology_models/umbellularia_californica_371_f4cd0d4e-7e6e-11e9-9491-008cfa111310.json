@@ -1,0 +1,2025 @@
+{
+    "model_name": "Ensemble",
+    "core_models": [
+        {
+            "model_name": "BootstrapModel",
+            "parameters": [
+                {
+                    "model_name": "Alternating",
+                    "parameters": {
+                        "a": 595.3969519244116,
+                        "b": 1377.743431144292,
+                        "c": -0.4574824800705275,
+                        "threshold": 5,
+                        "t1": 1
+                    },
+                    "bootstrap_num": 0
+                },
+                {
+                    "model_name": "Alternating",
+                    "parameters": {
+                        "a": 574.9131222741894,
+                        "b": 1788.0881699221459,
+                        "c": -3.199370082151826,
+                        "threshold": 5,
+                        "t1": 1
+                    },
+                    "bootstrap_num": 1
+                },
+                {
+                    "model_name": "Alternating",
+                    "parameters": {
+                        "a": 996.6613496236885,
+                        "b": 1481.2696081419454,
+                        "c": -4.017958269559103,
+                        "threshold": 5,
+                        "t1": 1
+                    },
+                    "bootstrap_num": 2
+                },
+                {
+                    "model_name": "Alternating",
+                    "parameters": {
+                        "a": 996.0295546305517,
+                        "b": 1468.5824637721605,
+                        "c": -1.3626122265476752,
+                        "threshold": 5,
+                        "t1": 1
+                    },
+                    "bootstrap_num": 3
+                },
+                {
+                    "model_name": "Alternating",
+                    "parameters": {
+                        "a": 863.6346182412844,
+                        "b": 1176.9388780235652,
+                        "c": -0.5755056876297027,
+                        "threshold": 5,
+                        "t1": 1
+                    },
+                    "bootstrap_num": 4
+                },
+                {
+                    "model_name": "Alternating",
+                    "parameters": {
+                        "a": 582.5728073115113,
+                        "b": 1781.917616434966,
+                        "c": -0.6611812263590588,
+                        "threshold": 5,
+                        "t1": 1
+                    },
+                    "bootstrap_num": 5
+                },
+                {
+                    "model_name": "Alternating",
+                    "parameters": {
+                        "a": 719.3759008049194,
+                        "b": 1759.8922144922808,
+                        "c": -0.3322650042376134,
+                        "threshold": 5,
+                        "t1": 1
+                    },
+                    "bootstrap_num": 6
+                },
+                {
+                    "model_name": "Alternating",
+                    "parameters": {
+                        "a": -300.3007714053261,
+                        "b": 2313.45896606263,
+                        "c": -0.06955139006699129,
+                        "threshold": 5,
+                        "t1": 1
+                    },
+                    "bootstrap_num": 7
+                },
+                {
+                    "model_name": "Alternating",
+                    "parameters": {
+                        "a": -26.24690820674458,
+                        "b": 2067.2764515682225,
+                        "c": -0.024483576475098356,
+                        "threshold": 5,
+                        "t1": 1
+                    },
+                    "bootstrap_num": 8
+                },
+                {
+                    "model_name": "Alternating",
+                    "parameters": {
+                        "a": -553.3031640146604,
+                        "b": 2937.6832517621788,
+                        "c": -0.1626375104890081,
+                        "threshold": 5,
+                        "t1": 1
+                    },
+                    "bootstrap_num": 9
+                },
+                {
+                    "model_name": "Alternating",
+                    "parameters": {
+                        "a": 649.8800582949302,
+                        "b": 1406.9787047074133,
+                        "c": -0.26985831518420955,
+                        "threshold": 5,
+                        "t1": 1
+                    },
+                    "bootstrap_num": 10
+                },
+                {
+                    "model_name": "Alternating",
+                    "parameters": {
+                        "a": 720.9816494946688,
+                        "b": 1643.8625606776632,
+                        "c": -0.07253694195408711,
+                        "threshold": 5,
+                        "t1": 1
+                    },
+                    "bootstrap_num": 11
+                },
+                {
+                    "model_name": "Alternating",
+                    "parameters": {
+                        "a": 921.590110295433,
+                        "b": 1444.3884387292735,
+                        "c": -0.9340157148345041,
+                        "threshold": 5,
+                        "t1": 1
+                    },
+                    "bootstrap_num": 12
+                },
+                {
+                    "model_name": "Alternating",
+                    "parameters": {
+                        "a": 509.107859759367,
+                        "b": 1411.6600497264596,
+                        "c": -0.5049107789739589,
+                        "threshold": 5,
+                        "t1": 1
+                    },
+                    "bootstrap_num": 13
+                },
+                {
+                    "model_name": "Alternating",
+                    "parameters": {
+                        "a": 728.3273197205917,
+                        "b": 2018.3383026050094,
+                        "c": -0.004726011178610712,
+                        "threshold": 5,
+                        "t1": 1
+                    },
+                    "bootstrap_num": 14
+                },
+                {
+                    "model_name": "Alternating",
+                    "parameters": {
+                        "a": -441.1012315656401,
+                        "b": 2531.8348097599132,
+                        "c": -0.07005316936084194,
+                        "threshold": 5,
+                        "t1": 1
+                    },
+                    "bootstrap_num": 15
+                },
+                {
+                    "model_name": "Alternating",
+                    "parameters": {
+                        "a": 661.619438458508,
+                        "b": 1639.11885464252,
+                        "c": -4.861575164552189,
+                        "threshold": 5,
+                        "t1": 1
+                    },
+                    "bootstrap_num": 16
+                },
+                {
+                    "model_name": "Alternating",
+                    "parameters": {
+                        "a": 813.5023800028898,
+                        "b": 1094.0686193472793,
+                        "c": -0.2043037984578806,
+                        "threshold": 5,
+                        "t1": 1
+                    },
+                    "bootstrap_num": 17
+                },
+                {
+                    "model_name": "Alternating",
+                    "parameters": {
+                        "a": 988.7937940369449,
+                        "b": 1022.9453306966734,
+                        "c": -1.0620969988009987,
+                        "threshold": 5,
+                        "t1": 1
+                    },
+                    "bootstrap_num": 18
+                },
+                {
+                    "model_name": "Alternating",
+                    "parameters": {
+                        "a": 819.9393044231172,
+                        "b": 1636.8493872310578,
+                        "c": -0.1705952165541209,
+                        "threshold": 5,
+                        "t1": 1
+                    },
+                    "bootstrap_num": 19
+                },
+                {
+                    "model_name": "Alternating",
+                    "parameters": {
+                        "a": 434.46657906154184,
+                        "b": 1526.3421089572157,
+                        "c": -0.18923962570020558,
+                        "threshold": 5,
+                        "t1": 1
+                    },
+                    "bootstrap_num": 20
+                },
+                {
+                    "model_name": "Alternating",
+                    "parameters": {
+                        "a": 552.8543151539723,
+                        "b": 1828.0512096005252,
+                        "c": -0.5363947639514133,
+                        "threshold": 5,
+                        "t1": 1
+                    },
+                    "bootstrap_num": 21
+                },
+                {
+                    "model_name": "Alternating",
+                    "parameters": {
+                        "a": 551.3702054379448,
+                        "b": 1388.3583645645033,
+                        "c": -0.39176044968279866,
+                        "threshold": 5,
+                        "t1": 1
+                    },
+                    "bootstrap_num": 22
+                },
+                {
+                    "model_name": "Alternating",
+                    "parameters": {
+                        "a": 432.12270255895004,
+                        "b": 1953.5375392295796,
+                        "c": -0.4130353304259886,
+                        "threshold": 5,
+                        "t1": 1
+                    },
+                    "bootstrap_num": 23
+                },
+                {
+                    "model_name": "Alternating",
+                    "parameters": {
+                        "a": 898.0826442601004,
+                        "b": 1558.7496537096722,
+                        "c": -0.9466309132628798,
+                        "threshold": 5,
+                        "t1": 1
+                    },
+                    "bootstrap_num": 24
+                },
+                {
+                    "model_name": "Alternating",
+                    "parameters": {
+                        "a": 980.6542514490202,
+                        "b": 1382.244293145937,
+                        "c": -1.0269335751848825,
+                        "threshold": 5,
+                        "t1": 1
+                    },
+                    "bootstrap_num": 25
+                },
+                {
+                    "model_name": "Alternating",
+                    "parameters": {
+                        "a": 934.6052162576017,
+                        "b": 1746.4302171642594,
+                        "c": -1.0913653591239663,
+                        "threshold": 5,
+                        "t1": 1
+                    },
+                    "bootstrap_num": 26
+                },
+                {
+                    "model_name": "Alternating",
+                    "parameters": {
+                        "a": 770.1340713052025,
+                        "b": 1271.1130258587991,
+                        "c": -0.44274172508710086,
+                        "threshold": 5,
+                        "t1": 1
+                    },
+                    "bootstrap_num": 27
+                },
+                {
+                    "model_name": "Alternating",
+                    "parameters": {
+                        "a": 604.1243191374282,
+                        "b": 1779.7523925680298,
+                        "c": -0.2246955180882324,
+                        "threshold": 5,
+                        "t1": 1
+                    },
+                    "bootstrap_num": 28
+                },
+                {
+                    "model_name": "Alternating",
+                    "parameters": {
+                        "a": 788.1176970791992,
+                        "b": 2124.515428836562,
+                        "c": -1.1275755243474013,
+                        "threshold": 5,
+                        "t1": 1
+                    },
+                    "bootstrap_num": 29
+                },
+                {
+                    "model_name": "Alternating",
+                    "parameters": {
+                        "a": 918.0332283545631,
+                        "b": 1432.0146117668505,
+                        "c": -0.32351025068296746,
+                        "threshold": 5,
+                        "t1": 1
+                    },
+                    "bootstrap_num": 30
+                },
+                {
+                    "model_name": "Alternating",
+                    "parameters": {
+                        "a": 966.4426094690681,
+                        "b": 1090.449216087292,
+                        "c": -0.2604192746390366,
+                        "threshold": 5,
+                        "t1": 1
+                    },
+                    "bootstrap_num": 31
+                },
+                {
+                    "model_name": "Alternating",
+                    "parameters": {
+                        "a": 571.1110876469556,
+                        "b": 1791.990353115158,
+                        "c": -0.4029067541755671,
+                        "threshold": 5,
+                        "t1": 1
+                    },
+                    "bootstrap_num": 32
+                },
+                {
+                    "model_name": "Alternating",
+                    "parameters": {
+                        "a": 642.7354367387675,
+                        "b": 1703.8430040591825,
+                        "c": -0.43897178069856135,
+                        "threshold": 5,
+                        "t1": 1
+                    },
+                    "bootstrap_num": 33
+                },
+                {
+                    "model_name": "Alternating",
+                    "parameters": {
+                        "a": 947.4864528186597,
+                        "b": 1008.2908691383091,
+                        "c": -0.31965662601096323,
+                        "threshold": 5,
+                        "t1": 1
+                    },
+                    "bootstrap_num": 34
+                },
+                {
+                    "model_name": "Alternating",
+                    "parameters": {
+                        "a": 820.2838890255662,
+                        "b": 1566.4534035378729,
+                        "c": -0.28073439995659477,
+                        "threshold": 5,
+                        "t1": 1
+                    },
+                    "bootstrap_num": 35
+                },
+                {
+                    "model_name": "Alternating",
+                    "parameters": {
+                        "a": 847.0272008574093,
+                        "b": 1194.1172569018988,
+                        "c": -0.6101155157479876,
+                        "threshold": 5,
+                        "t1": 1
+                    },
+                    "bootstrap_num": 36
+                },
+                {
+                    "model_name": "Alternating",
+                    "parameters": {
+                        "a": 770.5758703963821,
+                        "b": 1168.7343904275133,
+                        "c": -0.5632892690192985,
+                        "threshold": 5,
+                        "t1": 1
+                    },
+                    "bootstrap_num": 37
+                },
+                {
+                    "model_name": "Alternating",
+                    "parameters": {
+                        "a": 958.5627841935052,
+                        "b": 1426.7171988825594,
+                        "c": -0.5673203211220672,
+                        "threshold": 5,
+                        "t1": 1
+                    },
+                    "bootstrap_num": 38
+                },
+                {
+                    "model_name": "Alternating",
+                    "parameters": {
+                        "a": -288.83880822144636,
+                        "b": 2314.431090890355,
+                        "c": -0.003052570685748268,
+                        "threshold": 5,
+                        "t1": 1
+                    },
+                    "bootstrap_num": 39
+                },
+                {
+                    "model_name": "Alternating",
+                    "parameters": {
+                        "a": 881.347100414747,
+                        "b": 1596.9896361746514,
+                        "c": -0.6649334558623654,
+                        "threshold": 5,
+                        "t1": 1
+                    },
+                    "bootstrap_num": 40
+                },
+                {
+                    "model_name": "Alternating",
+                    "parameters": {
+                        "a": -825.458343618498,
+                        "b": 4006.220046072669,
+                        "c": -0.19348344838469922,
+                        "threshold": 5,
+                        "t1": 1
+                    },
+                    "bootstrap_num": 41
+                },
+                {
+                    "model_name": "Alternating",
+                    "parameters": {
+                        "a": 447.84500697705255,
+                        "b": 1612.871520326135,
+                        "c": -0.458930056131428,
+                        "threshold": 5,
+                        "t1": 1
+                    },
+                    "bootstrap_num": 42
+                },
+                {
+                    "model_name": "Alternating",
+                    "parameters": {
+                        "a": 580.7947903205524,
+                        "b": 1806.183590897813,
+                        "c": -4.7496955351896695,
+                        "threshold": 5,
+                        "t1": 1
+                    },
+                    "bootstrap_num": 43
+                },
+                {
+                    "model_name": "Alternating",
+                    "parameters": {
+                        "a": -880.4072806156009,
+                        "b": 2893.119004132994,
+                        "c": -0.19524376466867333,
+                        "threshold": 5,
+                        "t1": 1
+                    },
+                    "bootstrap_num": 44
+                },
+                {
+                    "model_name": "Alternating",
+                    "parameters": {
+                        "a": 874.3139398137859,
+                        "b": 1065.1840269325708,
+                        "c": -0.6555268542109294,
+                        "threshold": 5,
+                        "t1": 1
+                    },
+                    "bootstrap_num": 45
+                },
+                {
+                    "model_name": "Alternating",
+                    "parameters": {
+                        "a": 512.8152441587839,
+                        "b": 2145.2858412568753,
+                        "c": -0.8394655384210652,
+                        "threshold": 5,
+                        "t1": 1
+                    },
+                    "bootstrap_num": 46
+                },
+                {
+                    "model_name": "Alternating",
+                    "parameters": {
+                        "a": -981.4271199123285,
+                        "b": 3750.6487174394324,
+                        "c": -0.2846374754116976,
+                        "threshold": 5,
+                        "t1": 1
+                    },
+                    "bootstrap_num": 47
+                },
+                {
+                    "model_name": "Alternating",
+                    "parameters": {
+                        "a": 224.18886354386157,
+                        "b": 2159.566415671276,
+                        "c": -0.27095462043503105,
+                        "threshold": 5,
+                        "t1": 1
+                    },
+                    "bootstrap_num": 48
+                },
+                {
+                    "model_name": "Alternating",
+                    "parameters": {
+                        "a": 947.668705843041,
+                        "b": 1047.590858493587,
+                        "c": -0.30427985870001795,
+                        "threshold": 5,
+                        "t1": 1
+                    },
+                    "bootstrap_num": 49
+                }
+            ]
+        },
+        {
+            "model_name": "BootstrapModel",
+            "parameters": [
+                {
+                    "model_name": "ThermalTime",
+                    "parameters": {
+                        "t1": 111.22140445809326,
+                        "T": 24.021920468750274,
+                        "F": 10.134092572360089
+                    },
+                    "bootstrap_num": 0
+                },
+                {
+                    "model_name": "ThermalTime",
+                    "parameters": {
+                        "t1": 93.59033082287937,
+                        "T": 18.2378396978815,
+                        "F": 38.12027980395072
+                    },
+                    "bootstrap_num": 1
+                },
+                {
+                    "model_name": "ThermalTime",
+                    "parameters": {
+                        "t1": 1.7548974662427526,
+                        "T": 24.07874657588457,
+                        "F": 19.37919558694648
+                    },
+                    "bootstrap_num": 2
+                },
+                {
+                    "model_name": "ThermalTime",
+                    "parameters": {
+                        "t1": 69.19331801762178,
+                        "T": 24.077329430516713,
+                        "F": 20.681892156273193
+                    },
+                    "bootstrap_num": 3
+                },
+                {
+                    "model_name": "ThermalTime",
+                    "parameters": {
+                        "t1": 91.55290984665093,
+                        "T": 24.039623434762913,
+                        "F": 2.3693744882922374
+                    },
+                    "bootstrap_num": 4
+                },
+                {
+                    "model_name": "ThermalTime",
+                    "parameters": {
+                        "t1": 89.31815949869798,
+                        "T": 18.71105602829418,
+                        "F": 20.167713869031218
+                    },
+                    "bootstrap_num": 5
+                },
+                {
+                    "model_name": "ThermalTime",
+                    "parameters": {
+                        "t1": 64.77697352452489,
+                        "T": 23.293634795741557,
+                        "F": 23.957106601501835
+                    },
+                    "bootstrap_num": 6
+                },
+                {
+                    "model_name": "ThermalTime",
+                    "parameters": {
+                        "t1": 23.387806127740305,
+                        "T": 24.132455917996175,
+                        "F": 2.172401415749789
+                    },
+                    "bootstrap_num": 7
+                },
+                {
+                    "model_name": "ThermalTime",
+                    "parameters": {
+                        "t1": -51.858261693737575,
+                        "T": 15.653721405054293,
+                        "F": 363.27857232929495
+                    },
+                    "bootstrap_num": 8
+                },
+                {
+                    "model_name": "ThermalTime",
+                    "parameters": {
+                        "t1": 48.24938242542771,
+                        "T": 24.080249360200177,
+                        "F": 13.537854222569138
+                    },
+                    "bootstrap_num": 9
+                },
+                {
+                    "model_name": "ThermalTime",
+                    "parameters": {
+                        "t1": 90.83730633373793,
+                        "T": 23.945694749557568,
+                        "F": 24.10858738163438
+                    },
+                    "bootstrap_num": 10
+                },
+                {
+                    "model_name": "ThermalTime",
+                    "parameters": {
+                        "t1": 52.439746302249034,
+                        "T": 24.062424218721606,
+                        "F": 22.528294018497377
+                    },
+                    "bootstrap_num": 11
+                },
+                {
+                    "model_name": "ThermalTime",
+                    "parameters": {
+                        "t1": 86.0686331367021,
+                        "T": 18.699876699307378,
+                        "F": 20.155733081172173
+                    },
+                    "bootstrap_num": 12
+                },
+                {
+                    "model_name": "ThermalTime",
+                    "parameters": {
+                        "t1": -61.636106636682086,
+                        "T": 18.168955924788193,
+                        "F": 61.31947692910779
+                    },
+                    "bootstrap_num": 13
+                },
+                {
+                    "model_name": "ThermalTime",
+                    "parameters": {
+                        "t1": -40.72788135281576,
+                        "T": 15.655450836352458,
+                        "F": 345.129745149705
+                    },
+                    "bootstrap_num": 14
+                },
+                {
+                    "model_name": "ThermalTime",
+                    "parameters": {
+                        "t1": 102.86704195581356,
+                        "T": 24.059684000896752,
+                        "F": 19.975286519635006
+                    },
+                    "bootstrap_num": 15
+                },
+                {
+                    "model_name": "ThermalTime",
+                    "parameters": {
+                        "t1": 116.47373645016495,
+                        "T": 22.595566682493423,
+                        "F": 24.131503596707944
+                    },
+                    "bootstrap_num": 16
+                },
+                {
+                    "model_name": "ThermalTime",
+                    "parameters": {
+                        "t1": 89.47577470721922,
+                        "T": 18.697568895977806,
+                        "F": 20.1593022129191
+                    },
+                    "bootstrap_num": 17
+                },
+                {
+                    "model_name": "ThermalTime",
+                    "parameters": {
+                        "t1": 84.57657545127029,
+                        "T": 24.051342857808567,
+                        "F": 14.106942674518905
+                    },
+                    "bootstrap_num": 18
+                },
+                {
+                    "model_name": "ThermalTime",
+                    "parameters": {
+                        "t1": 87.78471295542882,
+                        "T": 18.695345371291598,
+                        "F": 20.153278225817076
+                    },
+                    "bootstrap_num": 19
+                },
+                {
+                    "model_name": "ThermalTime",
+                    "parameters": {
+                        "t1": 115.18412204182614,
+                        "T": 22.493751342205908,
+                        "F": 24.074023982842277
+                    },
+                    "bootstrap_num": 20
+                },
+                {
+                    "model_name": "ThermalTime",
+                    "parameters": {
+                        "t1": 53.27174351065063,
+                        "T": 24.093866559793785,
+                        "F": 21.706360318127338
+                    },
+                    "bootstrap_num": 21
+                },
+                {
+                    "model_name": "ThermalTime",
+                    "parameters": {
+                        "t1": 104.05318063849394,
+                        "T": 24.05320072935375,
+                        "F": 24.00225094119935
+                    },
+                    "bootstrap_num": 22
+                },
+                {
+                    "model_name": "ThermalTime",
+                    "parameters": {
+                        "t1": 40.765158592600585,
+                        "T": 20.62233192668172,
+                        "F": 5.229779792887257
+                    },
+                    "bootstrap_num": 23
+                },
+                {
+                    "model_name": "ThermalTime",
+                    "parameters": {
+                        "t1": 87.51448160942438,
+                        "T": 18.709489735555806,
+                        "F": 20.163814516413936
+                    },
+                    "bootstrap_num": 24
+                },
+                {
+                    "model_name": "ThermalTime",
+                    "parameters": {
+                        "t1": 91.13818805008914,
+                        "T": 18.137694464442117,
+                        "F": 38.47836727909856
+                    },
+                    "bootstrap_num": 25
+                },
+                {
+                    "model_name": "ThermalTime",
+                    "parameters": {
+                        "t1": 74.2668664453439,
+                        "T": 18.249161616092678,
+                        "F": 39.60841797126727
+                    },
+                    "bootstrap_num": 26
+                },
+                {
+                    "model_name": "ThermalTime",
+                    "parameters": {
+                        "t1": 88.1457257142516,
+                        "T": 18.696693563263977,
+                        "F": 20.189134508959796
+                    },
+                    "bootstrap_num": 27
+                },
+                {
+                    "model_name": "ThermalTime",
+                    "parameters": {
+                        "t1": 115.54032911241285,
+                        "T": 23.273339255434884,
+                        "F": 23.861912172681627
+                    },
+                    "bootstrap_num": 28
+                },
+                {
+                    "model_name": "ThermalTime",
+                    "parameters": {
+                        "t1": 120.06288835930286,
+                        "T": 22.45722139593656,
+                        "F": 23.879771769235163
+                    },
+                    "bootstrap_num": 29
+                },
+                {
+                    "model_name": "ThermalTime",
+                    "parameters": {
+                        "t1": -21.625270646988525,
+                        "T": 24.14227554173544,
+                        "F": 5.484407661850241
+                    },
+                    "bootstrap_num": 30
+                },
+                {
+                    "model_name": "ThermalTime",
+                    "parameters": {
+                        "t1": 83.48680346403891,
+                        "T": 19.502165547244115,
+                        "F": 20.146635572844104
+                    },
+                    "bootstrap_num": 31
+                },
+                {
+                    "model_name": "ThermalTime",
+                    "parameters": {
+                        "t1": 5.076482802179271,
+                        "T": 24.094750496272,
+                        "F": 7.266503517030742
+                    },
+                    "bootstrap_num": 32
+                },
+                {
+                    "model_name": "ThermalTime",
+                    "parameters": {
+                        "t1": -58.27991719291808,
+                        "T": 24.061338173860765,
+                        "F": 15.57242580230411
+                    },
+                    "bootstrap_num": 33
+                },
+                {
+                    "model_name": "ThermalTime",
+                    "parameters": {
+                        "t1": 89.69970618096166,
+                        "T": 18.217846505791822,
+                        "F": 38.324142755311584
+                    },
+                    "bootstrap_num": 34
+                },
+                {
+                    "model_name": "ThermalTime",
+                    "parameters": {
+                        "t1": 98.0524157128559,
+                        "T": 23.284145726744242,
+                        "F": 24.110948919475334
+                    },
+                    "bootstrap_num": 35
+                },
+                {
+                    "model_name": "ThermalTime",
+                    "parameters": {
+                        "t1": 87.75865771403964,
+                        "T": 18.712318959771434,
+                        "F": 20.14762598439023
+                    },
+                    "bootstrap_num": 36
+                },
+                {
+                    "model_name": "ThermalTime",
+                    "parameters": {
+                        "t1": 42.98417778784537,
+                        "T": 24.044767458902033,
+                        "F": 21.762101434786757
+                    },
+                    "bootstrap_num": 37
+                },
+                {
+                    "model_name": "ThermalTime",
+                    "parameters": {
+                        "t1": 89.27667046656549,
+                        "T": 18.68065102228061,
+                        "F": 20.15681444111175
+                    },
+                    "bootstrap_num": 38
+                },
+                {
+                    "model_name": "ThermalTime",
+                    "parameters": {
+                        "t1": 77.81342524280373,
+                        "T": 24.03476664433671,
+                        "F": 4.921635479939482
+                    },
+                    "bootstrap_num": 39
+                },
+                {
+                    "model_name": "ThermalTime",
+                    "parameters": {
+                        "t1": -47.07074643702336,
+                        "T": 24.096834142303514,
+                        "F": 18.17908391348493
+                    },
+                    "bootstrap_num": 40
+                },
+                {
+                    "model_name": "ThermalTime",
+                    "parameters": {
+                        "t1": 152.87013425472713,
+                        "T": 24.10253799429838,
+                        "F": 6.936990205279699
+                    },
+                    "bootstrap_num": 41
+                },
+                {
+                    "model_name": "ThermalTime",
+                    "parameters": {
+                        "t1": 99.70535201596613,
+                        "T": 24.101007473451514,
+                        "F": 22.48171449886064
+                    },
+                    "bootstrap_num": 42
+                },
+                {
+                    "model_name": "ThermalTime",
+                    "parameters": {
+                        "t1": 114.91987481686438,
+                        "T": 22.56720179812642,
+                        "F": 24.064681338811454
+                    },
+                    "bootstrap_num": 43
+                },
+                {
+                    "model_name": "ThermalTime",
+                    "parameters": {
+                        "t1": 80.9675326998574,
+                        "T": 20.149710401989985,
+                        "F": 12.686062787351432
+                    },
+                    "bootstrap_num": 44
+                },
+                {
+                    "model_name": "ThermalTime",
+                    "parameters": {
+                        "t1": 88.8306846688638,
+                        "T": 24.02521497112009,
+                        "F": 0.14374158501283318
+                    },
+                    "bootstrap_num": 45
+                },
+                {
+                    "model_name": "ThermalTime",
+                    "parameters": {
+                        "t1": 89.05785320874779,
+                        "T": 18.70719082015095,
+                        "F": 20.143554239484388
+                    },
+                    "bootstrap_num": 46
+                },
+                {
+                    "model_name": "ThermalTime",
+                    "parameters": {
+                        "t1": 121.77567240634171,
+                        "T": 24.149248968437533,
+                        "F": 21.395595172423782
+                    },
+                    "bootstrap_num": 47
+                },
+                {
+                    "model_name": "ThermalTime",
+                    "parameters": {
+                        "t1": -12.434723533193193,
+                        "T": 24.112529140623035,
+                        "F": 3.2388043183902937
+                    },
+                    "bootstrap_num": 48
+                },
+                {
+                    "model_name": "ThermalTime",
+                    "parameters": {
+                        "t1": 95.75178752247892,
+                        "T": 18.266744783359307,
+                        "F": 38.11559391089355
+                    },
+                    "bootstrap_num": 49
+                }
+            ]
+        },
+        {
+            "model_name": "BootstrapModel",
+            "parameters": [
+                {
+                    "model_name": "Uniforc",
+                    "parameters": {
+                        "t1": 40.60239764008557,
+                        "F": 0.1892667319981456,
+                        "b": -13.349651898534876,
+                        "c": 24.15697705030019
+                    },
+                    "bootstrap_num": 0
+                },
+                {
+                    "model_name": "Uniforc",
+                    "parameters": {
+                        "t1": 72.59766665562762,
+                        "F": 0.4350389520775195,
+                        "b": -10.815420453054806,
+                        "c": 24.131512889553875
+                    },
+                    "bootstrap_num": 1
+                },
+                {
+                    "model_name": "Uniforc",
+                    "parameters": {
+                        "t1": 87.85073786683921,
+                        "F": 1.0581264347934933,
+                        "b": -3.1341724827939155,
+                        "c": 19.187726514198467
+                    },
+                    "bootstrap_num": 2
+                },
+                {
+                    "model_name": "Uniforc",
+                    "parameters": {
+                        "t1": 35.5517398155571,
+                        "F": 0.6659331072413863,
+                        "b": -12.621752199330771,
+                        "c": 20.565068970781063
+                    },
+                    "bootstrap_num": 3
+                },
+                {
+                    "model_name": "Uniforc",
+                    "parameters": {
+                        "t1": -48.12499680704906,
+                        "F": 0.7074194920737398,
+                        "b": -19.091045461570193,
+                        "c": 24.03820111793371
+                    },
+                    "bootstrap_num": 4
+                },
+                {
+                    "model_name": "Uniforc",
+                    "parameters": {
+                        "t1": 89.99687469979267,
+                        "F": 1.0026452003782396,
+                        "b": -3.7040296325549527,
+                        "c": 19.235286159959486
+                    },
+                    "bootstrap_num": 5
+                },
+                {
+                    "model_name": "Uniforc",
+                    "parameters": {
+                        "t1": 22.876480795334956,
+                        "F": 0.14218641776882635,
+                        "b": -10.743977501109088,
+                        "c": 20.785107679132064
+                    },
+                    "bootstrap_num": 6
+                },
+                {
+                    "model_name": "Uniforc",
+                    "parameters": {
+                        "t1": 52.37677416296932,
+                        "F": 0.3729718265064861,
+                        "b": -17.92644348924729,
+                        "c": 24.132501184484646
+                    },
+                    "bootstrap_num": 7
+                },
+                {
+                    "model_name": "Uniforc",
+                    "parameters": {
+                        "t1": 93.0294433956775,
+                        "F": 0.8717548415358607,
+                        "b": -19.602598072237896,
+                        "c": 24.01900207310278
+                    },
+                    "bootstrap_num": 8
+                },
+                {
+                    "model_name": "Uniforc",
+                    "parameters": {
+                        "t1": 29.080751836179132,
+                        "F": 0.5006613419736681,
+                        "b": -13.017912713446524,
+                        "c": 24.078416111543564
+                    },
+                    "bootstrap_num": 9
+                },
+                {
+                    "model_name": "Uniforc",
+                    "parameters": {
+                        "t1": 98.09724537063883,
+                        "F": 0.2935001888016586,
+                        "b": -7.569735231541072,
+                        "c": 24.263253193104863
+                    },
+                    "bootstrap_num": 10
+                },
+                {
+                    "model_name": "Uniforc",
+                    "parameters": {
+                        "t1": 90.08911340338747,
+                        "F": 1.63159100720884,
+                        "b": -19.387580798456774,
+                        "c": 18.178167049957484
+                    },
+                    "bootstrap_num": 11
+                },
+                {
+                    "model_name": "Uniforc",
+                    "parameters": {
+                        "t1": 95.80633680126556,
+                        "F": 0.48443293940343324,
+                        "b": -16.43072352139741,
+                        "c": 24.099884341763744
+                    },
+                    "bootstrap_num": 12
+                },
+                {
+                    "model_name": "Uniforc",
+                    "parameters": {
+                        "t1": -15.90879837502348,
+                        "F": 0.28330604516180813,
+                        "b": -9.417006344360445,
+                        "c": 24.219260971462376
+                    },
+                    "bootstrap_num": 13
+                },
+                {
+                    "model_name": "Uniforc",
+                    "parameters": {
+                        "t1": 122.27373781442483,
+                        "F": 0.7496712853897662,
+                        "b": -15.469473077467038,
+                        "c": 24.013366321655248
+                    },
+                    "bootstrap_num": 14
+                },
+                {
+                    "model_name": "Uniforc",
+                    "parameters": {
+                        "t1": 106.70422751681465,
+                        "F": 0.07795707689817277,
+                        "b": -11.449350953298197,
+                        "c": 24.321019938083268
+                    },
+                    "bootstrap_num": 15
+                },
+                {
+                    "model_name": "Uniforc",
+                    "parameters": {
+                        "t1": 87.7313098192617,
+                        "F": 1.0010172540472695,
+                        "b": -8.7037981496096,
+                        "c": 19.032846719437835
+                    },
+                    "bootstrap_num": 16
+                },
+                {
+                    "model_name": "Uniforc",
+                    "parameters": {
+                        "t1": 91.25374992189049,
+                        "F": 0.30121224346008546,
+                        "b": -5.808320427675618,
+                        "c": 20.303864213363
+                    },
+                    "bootstrap_num": 17
+                },
+                {
+                    "model_name": "Uniforc",
+                    "parameters": {
+                        "t1": 104.14664687694031,
+                        "F": 0.6057060909692211,
+                        "b": -17.634880807484777,
+                        "c": 24.086976028038322
+                    },
+                    "bootstrap_num": 18
+                },
+                {
+                    "model_name": "Uniforc",
+                    "parameters": {
+                        "t1": 59.912799442545406,
+                        "F": 0.39024888045139505,
+                        "b": -14.10467207115923,
+                        "c": 24.11938425285505
+                    },
+                    "bootstrap_num": 19
+                },
+                {
+                    "model_name": "Uniforc",
+                    "parameters": {
+                        "t1": 90.02332903357794,
+                        "F": 1.0011813844120638,
+                        "b": -3.808165223148645,
+                        "c": 19.240789968518058
+                    },
+                    "bootstrap_num": 20
+                },
+                {
+                    "model_name": "Uniforc",
+                    "parameters": {
+                        "t1": 78.40263712445704,
+                        "F": 0.38142248942006063,
+                        "b": -10.259968328590078,
+                        "c": 24.124379666830386
+                    },
+                    "bootstrap_num": 21
+                },
+                {
+                    "model_name": "Uniforc",
+                    "parameters": {
+                        "t1": 86.76418910770509,
+                        "F": 1.0084274271669358,
+                        "b": -4.9120792895020315,
+                        "c": 19.18290899071543
+                    },
+                    "bootstrap_num": 22
+                },
+                {
+                    "model_name": "Uniforc",
+                    "parameters": {
+                        "t1": 154.32289692667837,
+                        "F": 0.09221764140153255,
+                        "b": -15.659653014327107,
+                        "c": 24.179038705571532
+                    },
+                    "bootstrap_num": 23
+                },
+                {
+                    "model_name": "Uniforc",
+                    "parameters": {
+                        "t1": -56.27308743238882,
+                        "F": 156.3663961696094,
+                        "b": -17.71004002773236,
+                        "c": 2.7540358278050014
+                    },
+                    "bootstrap_num": 24
+                },
+                {
+                    "model_name": "Uniforc",
+                    "parameters": {
+                        "t1": 82.75561516454616,
+                        "F": 0.137112887542159,
+                        "b": -8.8126255465584,
+                        "c": 20.37900131200737
+                    },
+                    "bootstrap_num": 25
+                },
+                {
+                    "model_name": "Uniforc",
+                    "parameters": {
+                        "t1": 47.67729658741321,
+                        "F": 25.263148657286067,
+                        "b": -6.714094560367574,
+                        "c": 14.648437770922696
+                    },
+                    "bootstrap_num": 26
+                },
+                {
+                    "model_name": "Uniforc",
+                    "parameters": {
+                        "t1": -66.1415485584067,
+                        "F": 65.71143310470339,
+                        "b": -17.378339754916638,
+                        "c": 14.71947312047065
+                    },
+                    "bootstrap_num": 27
+                },
+                {
+                    "model_name": "Uniforc",
+                    "parameters": {
+                        "t1": 8.077567909860761,
+                        "F": 0.7696102909637261,
+                        "b": -17.100006601641077,
+                        "c": 24.065369701779037
+                    },
+                    "bootstrap_num": 28
+                },
+                {
+                    "model_name": "Uniforc",
+                    "parameters": {
+                        "t1": 90.81990319675185,
+                        "F": 2.10680260430631,
+                        "b": -14.596464880613084,
+                        "c": 20.3079964141746
+                    },
+                    "bootstrap_num": 29
+                },
+                {
+                    "model_name": "Uniforc",
+                    "parameters": {
+                        "t1": -44.40804552749171,
+                        "F": 0.41047617243546597,
+                        "b": -8.907706382364328,
+                        "c": 24.141230527360424
+                    },
+                    "bootstrap_num": 30
+                },
+                {
+                    "model_name": "Uniforc",
+                    "parameters": {
+                        "t1": 86.6201562259045,
+                        "F": 0.9990906752253181,
+                        "b": -4.35070844528126,
+                        "c": 19.228516552448305
+                    },
+                    "bootstrap_num": 31
+                },
+                {
+                    "model_name": "Uniforc",
+                    "parameters": {
+                        "t1": -18.73337514880754,
+                        "F": 0.1404618008443208,
+                        "b": -9.186612925712524,
+                        "c": 24.293787129564095
+                    },
+                    "bootstrap_num": 32
+                },
+                {
+                    "model_name": "Uniforc",
+                    "parameters": {
+                        "t1": 11.098196818839028,
+                        "F": 0.018551168362265003,
+                        "b": -5.663247253343497,
+                        "c": 24.86283716374612
+                    },
+                    "bootstrap_num": 33
+                },
+                {
+                    "model_name": "Uniforc",
+                    "parameters": {
+                        "t1": 74.10476214513518,
+                        "F": 2.3390803777982683,
+                        "b": -18.568323944548858,
+                        "c": 18.224890567347174
+                    },
+                    "bootstrap_num": 34
+                },
+                {
+                    "model_name": "Uniforc",
+                    "parameters": {
+                        "t1": 92.17748707322636,
+                        "F": 0.6820642757076172,
+                        "b": -3.7212446707544222,
+                        "c": 19.954741162252443
+                    },
+                    "bootstrap_num": 35
+                },
+                {
+                    "model_name": "Uniforc",
+                    "parameters": {
+                        "t1": 82.90658508987295,
+                        "F": 0.4775584423429251,
+                        "b": -9.839714871088121,
+                        "c": 20.16290772605901
+                    },
+                    "bootstrap_num": 36
+                },
+                {
+                    "model_name": "Uniforc",
+                    "parameters": {
+                        "t1": 88.71082841141772,
+                        "F": 1.0068247285027496,
+                        "b": -4.594458621064257,
+                        "c": 19.201932310252477
+                    },
+                    "bootstrap_num": 37
+                },
+                {
+                    "model_name": "Uniforc",
+                    "parameters": {
+                        "t1": 87.35691463714612,
+                        "F": 0.3320602613554371,
+                        "b": -2.2345467671128834,
+                        "c": 20.510934828621497
+                    },
+                    "bootstrap_num": 38
+                },
+                {
+                    "model_name": "Uniforc",
+                    "parameters": {
+                        "t1": 120.81904471743015,
+                        "F": 0.6464454099354953,
+                        "b": -19.370404215235723,
+                        "c": 24.01276984619044
+                    },
+                    "bootstrap_num": 39
+                },
+                {
+                    "model_name": "Uniforc",
+                    "parameters": {
+                        "t1": 25.106189425923176,
+                        "F": 0.02089696477807479,
+                        "b": -10.615716296327287,
+                        "c": 24.41378820014739
+                    },
+                    "bootstrap_num": 40
+                },
+                {
+                    "model_name": "Uniforc",
+                    "parameters": {
+                        "t1": 6.107456359619519,
+                        "F": 0.4785821867683069,
+                        "b": -19.07719433125986,
+                        "c": 24.13559052404889
+                    },
+                    "bootstrap_num": 41
+                },
+                {
+                    "model_name": "Uniforc",
+                    "parameters": {
+                        "t1": 103.70167443003753,
+                        "F": 0.9520966474929367,
+                        "b": -17.592357733787622,
+                        "c": 23.983645053565205
+                    },
+                    "bootstrap_num": 42
+                },
+                {
+                    "model_name": "Uniforc",
+                    "parameters": {
+                        "t1": 90.59167411405097,
+                        "F": 1.0347100380947154,
+                        "b": -3.3918455578446194,
+                        "c": 19.21910909028347
+                    },
+                    "bootstrap_num": 43
+                },
+                {
+                    "model_name": "Uniforc",
+                    "parameters": {
+                        "t1": 13.40879684944069,
+                        "F": 0.6002884213702515,
+                        "b": -18.01981643668283,
+                        "c": 24.020871293971613
+                    },
+                    "bootstrap_num": 44
+                },
+                {
+                    "model_name": "Uniforc",
+                    "parameters": {
+                        "t1": 88.58461043777073,
+                        "F": 1.3226548474837045,
+                        "b": -18.490485431386823,
+                        "c": 18.22819822242615
+                    },
+                    "bootstrap_num": 45
+                },
+                {
+                    "model_name": "Uniforc",
+                    "parameters": {
+                        "t1": 37.28019904694372,
+                        "F": 0.6672944742559821,
+                        "b": -15.229208810082316,
+                        "c": 24.023317158770784
+                    },
+                    "bootstrap_num": 46
+                },
+                {
+                    "model_name": "Uniforc",
+                    "parameters": {
+                        "t1": 87.37368446332036,
+                        "F": 1.01511558012065,
+                        "b": -4.1044843251579195,
+                        "c": 19.185008289949025
+                    },
+                    "bootstrap_num": 47
+                },
+                {
+                    "model_name": "Uniforc",
+                    "parameters": {
+                        "t1": 74.27992761856518,
+                        "F": 2.4587769276629245,
+                        "b": -19.50606598441198,
+                        "c": 18.198132509063882
+                    },
+                    "bootstrap_num": 48
+                },
+                {
+                    "model_name": "Uniforc",
+                    "parameters": {
+                        "t1": 115.5215639329271,
+                        "F": 0.7450539871487791,
+                        "b": -18.44278087207746,
+                        "c": 24.01561469713944
+                    },
+                    "bootstrap_num": 49
+                }
+            ]
+        },
+        {
+            "model_name": "BootstrapModel",
+            "parameters": [
+                {
+                    "model_name": "Linear",
+                    "parameters": {
+                        "intercept": -2.244538533772052,
+                        "slope": 12.080091987579262,
+                        "time_start": -25.74516971997832,
+                        "time_length": 1.3683688652282413
+                    },
+                    "bootstrap_num": 0
+                },
+                {
+                    "model_name": "Linear",
+                    "parameters": {
+                        "intercept": -67.0,
+                        "slope": 24.44133824994231,
+                        "time_start": -25.735046134886822,
+                        "time_length": 23.810171108067706
+                    },
+                    "bootstrap_num": 1
+                },
+                {
+                    "model_name": "Linear",
+                    "parameters": {
+                        "intercept": -67.0,
+                        "slope": 17.185988171611953,
+                        "time_start": -29.962339920261442,
+                        "time_length": 1.0078418731658019
+                    },
+                    "bootstrap_num": 2
+                },
+                {
+                    "model_name": "Linear",
+                    "parameters": {
+                        "intercept": -59.99124521607431,
+                        "slope": 22.32262394194788,
+                        "time_start": -8.265095334112495,
+                        "time_length": 4.962999813415749
+                    },
+                    "bootstrap_num": 3
+                },
+                {
+                    "model_name": "Linear",
+                    "parameters": {
+                        "intercept": -67.0,
+                        "slope": 17.5988474783379,
+                        "time_start": 31.29530914813271,
+                        "time_length": 1.0798308315197005
+                    },
+                    "bootstrap_num": 4
+                },
+                {
+                    "model_name": "Linear",
+                    "parameters": {
+                        "intercept": -67.0,
+                        "slope": 20.972731659305882,
+                        "time_start": -26.892414247161767,
+                        "time_length": 25.154814172803754
+                    },
+                    "bootstrap_num": 5
+                },
+                {
+                    "model_name": "Linear",
+                    "parameters": {
+                        "intercept": -38.23402817127964,
+                        "slope": 16.10512086021902,
+                        "time_start": -25.794353234277494,
+                        "time_length": 1.093938951896277
+                    },
+                    "bootstrap_num": 6
+                },
+                {
+                    "model_name": "Linear",
+                    "parameters": {
+                        "intercept": -45.5772335907931,
+                        "slope": 16.968489107403144,
+                        "time_start": -25.919317471964334,
+                        "time_length": 1.3365580661443417
+                    },
+                    "bootstrap_num": 7
+                },
+                {
+                    "model_name": "Linear",
+                    "parameters": {
+                        "intercept": -67.0,
+                        "slope": 20.06201379169428,
+                        "time_start": -7.5136015819673645,
+                        "time_length": 1.0618940939807757
+                    },
+                    "bootstrap_num": 8
+                },
+                {
+                    "model_name": "Linear",
+                    "parameters": {
+                        "intercept": -40.58051807819413,
+                        "slope": 16.192047438357207,
+                        "time_start": -25.885428736324812,
+                        "time_length": 1.4284128674052994
+                    },
+                    "bootstrap_num": 9
+                },
+                {
+                    "model_name": "Linear",
+                    "parameters": {
+                        "intercept": -65.70529081896484,
+                        "slope": 23.38493951389199,
+                        "time_start": -7.386910675171755,
+                        "time_length": 1.743401294346576
+                    },
+                    "bootstrap_num": 10
+                },
+                {
+                    "model_name": "Linear",
+                    "parameters": {
+                        "intercept": -24.590175732264335,
+                        "slope": 17.94642053103558,
+                        "time_start": -7.579493847669816,
+                        "time_length": 1.5103033406804656
+                    },
+                    "bootstrap_num": 11
+                },
+                {
+                    "model_name": "Linear",
+                    "parameters": {
+                        "intercept": -31.248920167239365,
+                        "slope": 15.720847448978711,
+                        "time_start": -25.953806361728972,
+                        "time_length": 1.6308414247173957
+                    },
+                    "bootstrap_num": 12
+                },
+                {
+                    "model_name": "Linear",
+                    "parameters": {
+                        "intercept": -67.0,
+                        "slope": 16.715825597514975,
+                        "time_start": 31.332282774403094,
+                        "time_length": 1.525169637408851
+                    },
+                    "bootstrap_num": 13
+                },
+                {
+                    "model_name": "Linear",
+                    "parameters": {
+                        "intercept": -10.738435869054797,
+                        "slope": 13.573068121326946,
+                        "time_start": -7.569652366956568,
+                        "time_length": 1.4403496034154273
+                    },
+                    "bootstrap_num": 14
+                },
+                {
+                    "model_name": "Linear",
+                    "parameters": {
+                        "intercept": -46.75310650900812,
+                        "slope": 15.46193083915957,
+                        "time_start": 30.386096416168577,
+                        "time_length": 2.0387364598896767
+                    },
+                    "bootstrap_num": 15
+                },
+                {
+                    "model_name": "Linear",
+                    "parameters": {
+                        "intercept": -52.462560063414266,
+                        "slope": 18.24162241723982,
+                        "time_start": -7.732550005824937,
+                        "time_length": 1.182166022473524
+                    },
+                    "bootstrap_num": 16
+                },
+                {
+                    "model_name": "Linear",
+                    "parameters": {
+                        "intercept": -67.0,
+                        "slope": 24.106794090687032,
+                        "time_start": -7.344821028553206,
+                        "time_length": 1.4509878307020045
+                    },
+                    "bootstrap_num": 17
+                },
+                {
+                    "model_name": "Linear",
+                    "parameters": {
+                        "intercept": -34.078416693782,
+                        "slope": 14.716643354567793,
+                        "time_start": -7.786666625203697,
+                        "time_length": 1.6661756472994824
+                    },
+                    "bootstrap_num": 18
+                },
+                {
+                    "model_name": "Linear",
+                    "parameters": {
+                        "intercept": -67.0,
+                        "slope": 18.353462957402375,
+                        "time_start": 30.18621537886134,
+                        "time_length": 2.8058115745536156
+                    },
+                    "bootstrap_num": 19
+                },
+                {
+                    "model_name": "Linear",
+                    "parameters": {
+                        "intercept": -38.892761444745055,
+                        "slope": 20.71411402644915,
+                        "time_start": -11.517761823506355,
+                        "time_length": 1.7161975501548241
+                    },
+                    "bootstrap_num": 20
+                },
+                {
+                    "model_name": "Linear",
+                    "parameters": {
+                        "intercept": -67.0,
+                        "slope": 21.096516525154446,
+                        "time_start": 13.212861469104453,
+                        "time_length": 1.5990381128484898
+                    },
+                    "bootstrap_num": 21
+                },
+                {
+                    "model_name": "Linear",
+                    "parameters": {
+                        "intercept": -67.0,
+                        "slope": 18.98437493547904,
+                        "time_start": -29.159309318271752,
+                        "time_length": 6.314338071345411
+                    },
+                    "bootstrap_num": 22
+                },
+                {
+                    "model_name": "Linear",
+                    "parameters": {
+                        "intercept": -58.24679872119472,
+                        "slope": 19.380091119991363,
+                        "time_start": -7.754993223429118,
+                        "time_length": 1.350395016445809
+                    },
+                    "bootstrap_num": 23
+                },
+                {
+                    "model_name": "Linear",
+                    "parameters": {
+                        "intercept": -66.99999999999903,
+                        "slope": 17.11851788484042,
+                        "time_start": 31.299562977737303,
+                        "time_length": 1.0127265074842242
+                    },
+                    "bootstrap_num": 24
+                },
+                {
+                    "model_name": "Linear",
+                    "parameters": {
+                        "intercept": -67.0,
+                        "slope": 22.879621439544838,
+                        "time_start": -12.784273181281812,
+                        "time_length": 8.947127237992383
+                    },
+                    "bootstrap_num": 25
+                },
+                {
+                    "model_name": "Linear",
+                    "parameters": {
+                        "intercept": -67.0,
+                        "slope": 23.963298173294866,
+                        "time_start": -12.246926475810316,
+                        "time_length": 3.023374503828734
+                    },
+                    "bootstrap_num": 26
+                },
+                {
+                    "model_name": "Linear",
+                    "parameters": {
+                        "intercept": -67.0,
+                        "slope": 20.373833916511973,
+                        "time_start": -7.651786329587953,
+                        "time_length": 1.5556578876070049
+                    },
+                    "bootstrap_num": 27
+                },
+                {
+                    "model_name": "Linear",
+                    "parameters": {
+                        "intercept": -66.9999999999468,
+                        "slope": 24.65243286933057,
+                        "time_start": -14.49350905212006,
+                        "time_length": 5.47349390693627
+                    },
+                    "bootstrap_num": 28
+                },
+                {
+                    "model_name": "Linear",
+                    "parameters": {
+                        "intercept": -16.216444096419536,
+                        "slope": 20.77358057278948,
+                        "time_start": -4.845773108366263,
+                        "time_length": 1.2552914979377192
+                    },
+                    "bootstrap_num": 29
+                },
+                {
+                    "model_name": "Linear",
+                    "parameters": {
+                        "intercept": -67.0,
+                        "slope": 17.216417152937844,
+                        "time_start": 30.772335183620456,
+                        "time_length": 1.342964653716237
+                    },
+                    "bootstrap_num": 30
+                },
+                {
+                    "model_name": "Linear",
+                    "parameters": {
+                        "intercept": -67.0,
+                        "slope": 18.56941664343544,
+                        "time_start": -29.32455938157856,
+                        "time_length": 7.075374352841841
+                    },
+                    "bootstrap_num": 31
+                },
+                {
+                    "model_name": "Linear",
+                    "parameters": {
+                        "intercept": -67.0,
+                        "slope": 19.583052825775795,
+                        "time_start": -7.676606168167101,
+                        "time_length": 1.003683700053692
+                    },
+                    "bootstrap_num": 32
+                },
+                {
+                    "model_name": "Linear",
+                    "parameters": {
+                        "intercept": -65.52222251864265,
+                        "slope": 25.0,
+                        "time_start": -14.905492512512048,
+                        "time_length": 1.0708286183097115
+                    },
+                    "bootstrap_num": 33
+                },
+                {
+                    "model_name": "Linear",
+                    "parameters": {
+                        "intercept": -52.459644654310516,
+                        "slope": 17.44154740468316,
+                        "time_start": -25.47822395308257,
+                        "time_length": 1.4758739859256025
+                    },
+                    "bootstrap_num": 34
+                },
+                {
+                    "model_name": "Linear",
+                    "parameters": {
+                        "intercept": -66.99999999996803,
+                        "slope": 16.954207535124738,
+                        "time_start": 31.18867899383867,
+                        "time_length": 1.3488075967404356
+                    },
+                    "bootstrap_num": 35
+                },
+                {
+                    "model_name": "Linear",
+                    "parameters": {
+                        "intercept": -67.0,
+                        "slope": 21.600174825638803,
+                        "time_start": -11.441153088667232,
+                        "time_length": 1.832551571018982
+                    },
+                    "bootstrap_num": 36
+                },
+                {
+                    "model_name": "Linear",
+                    "parameters": {
+                        "intercept": -67.0,
+                        "slope": 19.6751468414698,
+                        "time_start": -13.904246769259405,
+                        "time_length": 7.172569208685253
+                    },
+                    "bootstrap_num": 37
+                },
+                {
+                    "model_name": "Linear",
+                    "parameters": {
+                        "intercept": -67.0,
+                        "slope": 21.742194261208358,
+                        "time_start": -10.546997612545322,
+                        "time_length": 1.0320344410220343
+                    },
+                    "bootstrap_num": 38
+                },
+                {
+                    "model_name": "Linear",
+                    "parameters": {
+                        "intercept": 18.412615889701932,
+                        "slope": 11.86390296426517,
+                        "time_start": -25.886107790973597,
+                        "time_length": 1.4302664479877123
+                    },
+                    "bootstrap_num": 39
+                },
+                {
+                    "model_name": "Linear",
+                    "parameters": {
+                        "intercept": -67.0,
+                        "slope": 20.337508286218245,
+                        "time_start": -7.5597182205936555,
+                        "time_length": 1.0727458023853202
+                    },
+                    "bootstrap_num": 40
+                },
+                {
+                    "model_name": "Linear",
+                    "parameters": {
+                        "intercept": -50.77910672864591,
+                        "slope": 17.708206217505825,
+                        "time_start": -7.561906401853914,
+                        "time_length": 1.4992696963485486
+                    },
+                    "bootstrap_num": 41
+                },
+                {
+                    "model_name": "Linear",
+                    "parameters": {
+                        "intercept": -67.0,
+                        "slope": 21.233006469444238,
+                        "time_start": -12.913713056889005,
+                        "time_length": 3.194244178138895
+                    },
+                    "bootstrap_num": 42
+                },
+                {
+                    "model_name": "Linear",
+                    "parameters": {
+                        "intercept": -67.0,
+                        "slope": 19.06042481810701,
+                        "time_start": -7.690642577851868,
+                        "time_length": 1.4868980873155877
+                    },
+                    "bootstrap_num": 43
+                },
+                {
+                    "model_name": "Linear",
+                    "parameters": {
+                        "intercept": -67.0,
+                        "slope": 22.46694274826228,
+                        "time_start": -7.258335079301627,
+                        "time_length": 1.924267239655265
+                    },
+                    "bootstrap_num": 44
+                },
+                {
+                    "model_name": "Linear",
+                    "parameters": {
+                        "intercept": -67.0,
+                        "slope": 21.590337910161498,
+                        "time_start": -12.451232670960504,
+                        "time_length": 9.053726619187223
+                    },
+                    "bootstrap_num": 45
+                },
+                {
+                    "model_name": "Linear",
+                    "parameters": {
+                        "intercept": -37.78495963335968,
+                        "slope": 17.420498849806446,
+                        "time_start": -7.867521521641294,
+                        "time_length": 1.591776705144646
+                    },
+                    "bootstrap_num": 46
+                },
+                {
+                    "model_name": "Linear",
+                    "parameters": {
+                        "intercept": -67.0,
+                        "slope": 21.060116747125992,
+                        "time_start": -7.545073434806859,
+                        "time_length": 1.2149300777961543
+                    },
+                    "bootstrap_num": 47
+                },
+                {
+                    "model_name": "Linear",
+                    "parameters": {
+                        "intercept": -67.0,
+                        "slope": 19.730898964024234,
+                        "time_start": -29.303252767518877,
+                        "time_length": 1.0244120816938533
+                    },
+                    "bootstrap_num": 48
+                },
+                {
+                    "model_name": "Linear",
+                    "parameters": {
+                        "intercept": -62.89634339516695,
+                        "slope": 22.403964803243642,
+                        "time_start": -7.508027311003012,
+                        "time_length": 1.6554833109293483
+                    },
+                    "bootstrap_num": 49
+                }
+            ]
+        }
+    ]
+}
